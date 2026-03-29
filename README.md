@@ -28,15 +28,6 @@
 2.  **Event Propagation:** 체결 발생 시 이벤트를 생성하여 Redis Pub/Sub 채널로 발행.
 3.  **Real-time Broadcast:** WebSocket 서버가 채널을 구독하여 접속 중인 클라이언트들에게 시세 전파.
 
----
-
-## 📈 Roadmap (Capstone Design Research)
-
-현재 **4학년 캡스톤 디자인** 과제의 일환으로 다음과 같은 성능 고도화를 진행 및 계획하고 있습니다.
-
-* **Java 25 Virtual Thread 적용:** I/O Blocking 구간에서 물리 스레드 점유를 최소화하여 시스템 처리량(Throughput)을 극대화하는 가이드라인 도출.
-* **DB Bottleneck Analysis:** 가상 스레드 환경에서 발생하는 DB 커넥션 점유 문제를 해결하기 위한 커넥션 풀 튜닝 및 쿼리 최적화 연구.
-* **Event-Driven Architecture:** 향후 **Apache Kafka**를 도입하여 주문 엔진과 비즈니스 로직 서버를 완전히 분리하는 아키텍처 확장 계획.
 
 ---
 
